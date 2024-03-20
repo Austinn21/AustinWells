@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.resume-section {
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    color: #007bff; 
+    text-decoration: none;
+}
+
+.skills-list, .experience-item ul, .education-item, .references ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.experience-title, .education-item p, .section-title {
+    font-weight: bold;
+}
+
+.section-title {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #0056b3; 
+}
+
+.references {
+    margin-top: 20px;
+}
+
+.reference-item {
+    margin-bottom: 10px;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.download-button:hover {
+    background-color: #0056b3; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+p, li {
+    color: #666;
+    line-height: 1.6;
+}
+img{
+    height: 350px;
+    width: 250px;
+    float:left;
+    padding: 20px;
+  }

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#" onclick="showTab('about')">Home</a></li>
+        <li><a href="#" onclick="showTab('resume')">Resume</a></li>
+        <li><a href="#" onclick="showTab('contact')">Contact</a></li>
+        <li><a href="#" onclick="showTab('education')">Education</a></li>
+    </ul>
+</nav>
+
+<main id="main-content">
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="images/Headshot.jpg" alt="Professional Photo">
+        <p>Hello. My name is Austin Wells. I am currently enrolled in UMKC (University of Missouri-Kansas City) for a BS in Computer Science. I have an associate degree in
+            Computer Science. I am expected to graduate in Fall of 2024. I also served in the United States Army form 2014-2019 as a Military Police Officer. I achieved the rank
+            of Sergeant and was honorably discharged and enrolled in college.</p>
+    </section>
+
+    <section id="resume" style="display: none;">
+        <h2>Resume</h2>
+        <p>Download my resume:</p>
+        <a href="resume.pdf" target="_blank">Download Resume</a>
+        <h2>Austin Patrick Wells</h2>
+        <p class="contact-info">
+            716 N Belvidere Ave Independence Mo, 64056 | 
+            (636)667-8075 | 
+            <a href="mailto:wellsaustin97@yahoo.com">wellsaustin97@yahoo.com</a>
+        </p>
+    </header>
+    
+    <div class="resume-section">
+        <h3>Objective</h3>
+        <p>Retail sales associate</p>
+    </div>
+    
+    <div class="resume-section">
+        <h3>Skills & Abilities</h3>
+        <ul class="skills-list">
+            <li>A professional and dedicated individual who can work well on their own as well as thrive in a team environment.</li>
+            <li>Capable of raising both personal and team work ethic.</li>
+        </ul>
+    </div>
+    
+    <div class="resume-section">
+        <h3>Experience</h3>
+        <div class="experience-item">
+            <p class="experience-title">2014-2019 Military Police, Army</p>
+            <ul>
+                <li>Operated in high stress situations, quickly adapting to challenges.</li>
+                <li>Functioned effectively both as a team member and leader.</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="resume-section">
+        <h3>Education</h3>
+        <div class="education-item">
+            <p>February 2018: Basic Leader Course, Camp Ashland NE</p>
+        </div>
+        <div class="education-item">
+            <p>August 2019-present: Pursuing a Computer Science Engineering degree</p>
+        </div>
+    </div>
+    
+    <div class="resume-section">
+        <h3>Communication</h3>
+        <p>As a sergeant in the Army, I honed my communication skills, effectively bridging communication between leadership and subordinates while providing mentorship.</p>
+    </div>
+    
+    <div class="resume-section">
+        <h3>Leadership</h3>
+        <ul>
+            <li>Guided team physical fitness, enhancing overall team performance.</li>
+            <li>Managed marksmanship training for 12 soldiers, achieving a 100% qualification rate.</li>
+            <li>Mentored soldiers, leading to promotions within the team.</li>
+            <li>Maintained an open and positive work environment, addressing personal and professional concerns.</li>
+        </ul>
+    </div>
+    
+    <div class="resume-section references">
+        <h3>References</h3>
+        <p class="reference-item">Nicholas Huggins, Squad Leader - (432) 802-6431</p>
+        <p class="reference-item">John Carrol, Platoon Sergeant - (785) 210-7439</p>
+        <p class="reference-item">Cinthia Chinceta, Platoon Leader - (352) 272-3359</p>
+    </div>
+    </section>
+
+    <section id="contact" style="display: none;">
+        <h2>Contact Me</h2>
+        <p>Phone: 636-667-8075</p>
+        <p>Email: <a href="mailto:wellsaustin97@gmail.com">wellsaustin97@gmail.com</a></p>
+    </section>
+    </section>
+
+    <section id="education" style="display: none;">
+        <h2>Education Background</h2>
+        <p>I graduated from Saint Clair High School in 2014. I then left in August of 2014 to join the Army which I completed Basic Training in January of 2015. 
+            My first duty situation was South Korea where I had the opportunity to go to SRT (Special Reaction Training) school. While there I also completed phase 2, 
+            which is a marksmanship course. After that I was placed on the team in South Korea. In January 2016 I was stationed back in the states at Fort Riley and 
+            completed their Law Enforcement course and patrolled from 2016-2019.During my time there I had the opportunity to go to BLC (Basic Leaders Course) which is where they "teach" 
+            you to be a leader, it is required to be promoted to Seargent. In 2019 I was honorably discharged from the Army and enrolled in Metropolitan Community College 
+            and took courses to achieve my associate degree in computer science which I completed in the Fall of 2023. I then transferred to UMKC to complete my Bachelors 
+            in that same field. I am set to graduate in the fall of 2024.  
+        </p>
+        <h3>Undergraduate Courses</h3>
+        <h4> Metropolitan Community College</h4>
+        <ul>
+            <li>COMP_Sci 123</li>
+            <li>Comp_Sci 143</li>
+            <li>Comp_Sci 223</li>
+            <li>Comp_Sci 241</li>
+            <li>Comp_Sci 143</li>
+        </ul>
+        <h4> University Missouri-Kansas City</h4>
+        <ul>
+            <li>Comp_Sci 303</li>
+            <li>Comp_Sci 320</li>
+            <li>Comp_Sci 449</li>
+            <li>Comp_Sci 490</li>
+            
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Austin Wells</p>
+</footer>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
